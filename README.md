@@ -1,2 +1,2 @@
-# gfsmath.github.io
-Germantown Friends School Math Club website
+# gfsmathleague.github.io
+Germantown Friends Math League
