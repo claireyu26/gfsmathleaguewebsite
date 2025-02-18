@@ -1,0 +1,1019 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* @font-face {
+  src: url(C:\Users\Home\AppData\Local\Temp\atom-118019-14536-1ea9572.rtm9ozuxr\league-spartan.zip\LeagueSpartan-Bold.otf);
+  font-family: League Spartan;
+} */
+
+button:focus {
+  outline: 0;
+}
+
+.main {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.main-text {
+  display: block;
+  width: 35vw;
+  padding: 2.3vh;
+  margin: auto;
+  border-top: 0.3vh solid #F2F2F2;
+  text-align: center;
+}
+
+.main h2 {
+  font-family:  Spartan, Helvetica, sans-serif;
+  font-size: 5.3vh;
+  margin-top: 1.5vh;
+}
+
+.main p {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 3vh;
+  padding: 0.75vh;
+}
+
+.main img {
+  width: 24.3vw;
+  padding: 7.5vh;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  right: 0vw;
+  background-color: white;
+z-index: 10;
+    /* position: fixed; */
+    top: 0;
+    width: 100%; 
+}
+
+.containercontact {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containercontact p {
+  font-size: 4.5vh;
+  padding: 25vh;
+  padding-top:17vh;
+}
+
+#logo {
+  font-family: League Spartan, Helvetica, sans-serif;
+  font-size: 4.5vh;
+  float: left;
+  position: absolute;
+  padding: 3.8vh;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+#logo-link{
+  display: flex;
+  align-items: center;
+  padding-top:none;
+}
+.logo-link img {
+  margin-right: 0.1vw; /* Adds space between logo and text */
+  padding-bottom:2vh;
+}
+.logo-link span {
+  position: relative;
+  top: -3vh; /* Move text up by 5 pixels */
+}
+
+i {
+  display: block;
+  margin-left: 0.07vw;
+}
+
+#logo a {
+  text-decoration: none;
+  color: rgb(252, 110, 47);
+}
+
+.link {
+  position: relative;
+}
+.link:after {
+  content: '';
+  position: absolute;
+  bottom: -.4em;
+  left: 50%;
+  right: 50%;
+  height: 0.15vh;
+  background: currentColor;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+.link:hover:after {
+  left: 0;
+  right: 0;
+  height: 0.3vh;
+}
+.link:before {
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: -0.7vw;
+  color: #eee;
+  opacity: .3;
+  font-weight: 100;
+  font-size: .8em;
+}
+
+nav ul li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.7vh;
+  padding: 2.3vh;
+  list-style-type: none;
+}
+
+nav ul {
+  float: right;
+  display: block;
+  padding: 2.3vh;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.heropage {
+  background: url("hero-design.png");
+  background-size: cover;
+  min-height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.herotext h1 {
+  margin-bottom: 2.3 vh;
+    font-family: League Spartan, Helvetica, sans-serif;
+padding-top:35vh;
+  /* font-family: League Spartan; */
+  color: rgb(252, 110, 47);
+  text-shadow: 0.3vh 0.3vh black;
+  font-size: 14vh;
+}
+
+.herotext button:focus {
+  outline: 0;
+}
+
+.herotext button {
+  font-size: 3vh;
+  width: 29vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border-radius: 75vh;
+  border: 0.3vh solid  rgb(0, 39, 45);
+  color: rgb(252, 110, 47);
+  height: 8.6vh;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.herotext button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.container {
+  width: 100%;
+  border-top: 0.3vh solid #F2F2F2;
+  border-bottom: 0.3vh solid #F2F2F2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  transition: all 0.2s linear;
+
+}
+
+
+.heropage1 {
+  background: url("hero-design1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 45vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.herotext1 h1 {
+  margin-bottom: 2.3 vh;
+    font-family: League Spartan, Helvetica, sans-serif;
+padding-top:15vh;
+  /* font-family: League Spartan; */
+  color: rgb(252, 110, 47);
+  text-shadow: 0.3vh 0.3vh black;
+  font-size: 8vh;
+}
+
+
+
+
+
+.item {
+  background-color: rgb(239 237 231);
+  padding: 2.3vh;
+  color: black;
+  text-align: center;
+  font-size: 2.3vh;
+  border-radius: 2.3vh;
+  width: 70vw;
+  margin-top: 7.5vh;
+  margin-bottom: 7.5vh;
+  font-family: League Spartan, Helvetica, sans-serif;
+  flex-basis: 25%;
+  border:0.75vh solid rgba(0, 0, 0, 0.07);
+      box-shadow:0 0vh 3.8vh rgba(0, 0, 0, 0.07);
+
+}
+.item:hover{
+  background-color: rgb(252, 110, 47);
+}
+
+.item-2 {
+  background-color: rgb(239 237 231);
+  padding: 2.3vh;
+  color: black;
+  text-align: center;
+  font-size: 2.3vh;
+  border-radius: 2.3vh;
+  width: 90vw;
+  margin-top: 7.5vh;
+  margin-bottom: 7.5vh;
+  font-family: League Spartan, Helvetica, sans-serif;
+  flex-basis: 25%;
+    border:0.75vh solid rgba(0, 0, 0, 0.07);
+          box-shadow:0 0vh 3.8vh rgba(0, 0, 0, 0.07);
+
+
+}
+
+.item-3 {
+  background-color: rgb(239 237 231);
+  padding: 2.3vh;
+  color: black;
+  text-align: center;
+  font-size: 2.3vh;
+  border-radius: 2.3vh;
+  width: 90vw;
+  margin-top: 7.5vh;
+  margin-bottom: 7.5vh;
+  font-family: League Spartan, Helvetica, sans-serif;
+  flex-basis: 25%;
+    border:0.75vh solid rgba(0, 0, 0, 0.07);
+          box-shadow:0 0vh 3.8vh rgba(0, 0, 0, 0.07);
+
+}
+.item-2:hover{
+  background-color: rgb(252, 110, 47);
+}
+.item-3:hover{
+  background-color: rgb(252, 110, 47);
+}
+
+.mail {
+  color: gray;
+  margin-top: -2.3vh;
+
+}
+
+.profile {
+  width: 22.3vh;
+  border-radius: 15vh;
+  /* padding: 2.3vh; */
+      border:0.75vh solid rgba(0, 0, 0, 0.07);
+
+}
+
+h2 {
+  margin-bottom: 2.3vh;
+  font-size: 4.2vh;
+}
+
+p {
+  margin-bottom: 2.6vh;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 2.6vh;
+  margin-top: 2.3vh;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 2.3vh;
+  padding: 2.3vh;
+  font-size: 2.6vh;
+  height: 8vh;
+  background-color: transparent;
+  border: 0.3vh solid black;
+  color: black;
+  width: 24vh;
+  border-radius: 15vh;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  margin-bottom: 3.8vh;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+section {
+  border-top: 0.3vh solid #F2F2F2;
+  border-bottom: 0.3vh solid #F2F2F2;
+}
+
+article {
+  padding: 10vh;
+  width: 144vh;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+quotecontact{
+    grid-template-columns: 1fr 1fr;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-style: normal;
+font-size: 22.6vh;
+font-family: League Spartan;
+position: absolute;
+margin-top: -7.5vh;
+margin-left: -10.8vh;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 2.6vh;
+display: block;
+margin-top: 0.75vh;
+}
+
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+blockquote {
+  margin-top: 10.5vh;
+  width: 55.6vw;
+  margin-bottom: 10.5vh;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 3vh;
+  font-style: italic;
+  display: block;
+}
+
+.secondimg {
+  width: 15.3vw;
+  border-right: 0.3vh solid #F2F2F2;
+  float: left;
+  margin-top: -2.3vh;
+  margin-right: 3.5vw;
+  margin-left: -1.4vw;
+}
+
+.content2 {
+  padding: 15vh;
+  width: 76.4vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.content3 {
+  display: flex;
+  justify-content: space-between;
+}
+.content3 h2{
+    font-size: 5.3vh;
+  font-family: League Spartan, Helvetica, sans-serif;
+  padding:3vh;
+}
+.content3 p{
+  padding:6vh;
+  padding-top:0vh;
+}
+.content3img {
+  padding:8vh;
+  padding-left:40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.SecondText3 {
+  flex: 1; /* Take up the remaining space */
+  background-color: rgb(239 237 231);
+  border: 0.75vh solid rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0vh 3.8vh rgba(0, 0, 0, 0.07);
+  padding: 2.3vh;
+  color: black;
+  text-align: center;
+  border-radius: 2.3vh;
+  /* width: 60vw; Remove the width */
+  margin: 7.5vh;
+  /* margin-right: 50vh;  Remove the right margin*/
+  /* margin-left: 10vh; Remove the left margin */
+  font-family: League Spartan, Helvetica, sans-serif;
+}
+.SecondText3:hover{
+  background-color: rgb(252, 110, 47);
+  color:rgb(239 237 231);
+          
+          }
+
+.SecDivider3 {
+  display: none; /* Hide the divider if not needed */
+}
+.secondimg31 {
+  height: 40vh;
+    width: auto; /* Adjust the width as needed */
+  margin-bottom: 1.5vh; /* Add space between images */
+  padding-left:3vw;
+}
+.secondimg32 {
+  height: 10vh;
+    width: auto; /* Adjust the width as needed */
+  margin-bottom: 1.5vh; /* Add space between images */
+  padding-left:3vw;
+}
+
+.content21 {
+  padding: 15vh;
+  width: 76.4vw;
+  margin: auto;
+  text-align: center;
+  margin-top:-20vh;
+}
+.SecondText1{
+  margin-top:-3vh;
+}
+
+.content2 h2 {
+  font-size: 5.3vh;
+  font-family: League Spartan, Helvetica, sans-serif;
+}
+
+.content2 p {
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 76.4vw) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .item {
+    margin-top: 6vh;
+    margin-bottom: 7.5vh;
+  }
+  .item-2 {
+    margin-top: 6vh;
+    margin-bottom: 7.5vh;
+  }
+  .item-3 {
+    margin-top: 6vh;
+    margin-bottom: 7.5vh;
+  }
+}
+
+
+.tabFacts {
+  padding: 12vh;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-bottom: 0.3vh solid #F2F2F2;
+}
+
+.tabFacts h1 {
+  font-family: League Spartan, Helvetica, sans-serif;
+  font-size: 5.3vh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.tabFacts p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2.7vh;
+}
+
+.tabButton {
+  border: none;
+  margin-top: 4.5vh;
+  width: 10.4vw;
+  cursor: pointer;
+  border-radius: 500px;
+  border: 0.3vh solid #343538;
+  padding: 2.3vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #343538;
+  font-size: 2.6vh;
+  margin-right: 1.4vw;
+  transition: all 0.2s linear;
+}
+.tabButton:hover {
+  background-color: #1f2021;
+  color: white;
+  border: 0.3vh solid #1f2021;
+}
+
+.tabContainer {
+  max-width: 62.5vw;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#tabContainer2, #tabContainer3 {
+  display: none;
+  transition: all 0.2s linear;
+}
+
+.tabContainer img {
+  width: 11.8vw;
+  float: left;
+  margin-top: 4.5vh;
+  margin-right:3.5vw;
+}
+
+#tabContainer2 img {
+  width: 11.8vw;
+  float: right;
+  margin-top: 4.5vh;
+  margin-left: 3.5vw;
+}
+
+.tabText {
+  width: 50vw;
+  padding: 3.8vh;
+  margin-top: 7.5vh;
+  margin-left: 6.9vw;
+}
+
+.tabContainer h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5.1vh;
+  text-align: left;
+  font-weight: 500;
+}
+
+.tabContainer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.7vh;
+  text-align: left;
+}
+
+form {
+  width: 48.6vw;
+  display: block;
+  margin: auto;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+form h1 {
+  font-family: League Spartan, Helvetica, sans-serif;
+  font-size: 5.3vh;
+  text-align: center;
+  margin-bottom: 7.5vh;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input {
+  display: block;
+  margin-bottom: 2.3vh;
+  max-width: 48.6vw;
+  padding: 1.5vh;
+  font-size: 2.6vh;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 1.5vh;
+  width: 48.6vw;
+  border: 0.3vh solid #D8D8D8;
+}
+
+textarea:focus {
+  outline: 0;
+}
+
+textarea {
+  width: 48.6vw;
+  box-sizing: border-box;
+  height: 37.6vh;
+  border-radius: 1.5vh;
+  padding: 1.5vh;
+  border: 0.3vh solid #D8D8D8;
+  font-size: 2.6vh;
+  font-weight: 100;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea::placeholder {
+  font-size: 2.6vh;
+  font-weight: 100;
+  color: gray;
+  /* letter-spacing: .5px; */
+  font-family: 'Roboto', sans-serif;
+}
+
+form h3 {
+  text-align: left;
+  padding: 0.6vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+#form-button {
+  border: none;
+  background-color: #343538;
+  color: white;
+  padding: 1.8vh;
+  font-size: 2.6vh;
+  margin-top: 3.3vh;
+  width: 48.6vw;
+  border-radius: 75vh;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.2s linear;
+}
+
+#form-button:hover {
+  background-color: black;
+}
+
+.form {
+  border-bottom: 0.3vh solid #F2F2F2;
+}
+
+
+.our-team-section {
+  padding: 30px 0;
+  background: #f9f9f9;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-cards {
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 20vh; Increased margin for better spacing */
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-right:3vh;
+}
+
+.pic {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-content {
+  padding: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post {
+  font-size: 14px;
+  color: #666;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #343538;
+  width: 100%;
+  padding: 3vh;
+  bottom: 0;
+  margin-top: 7.5vh;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+footer h1 {
+  font-family: League Spartan, Helvetica, sans-serif;
+  margin-top: 1.5vh;
+}
+
+footer h3 {
+  font-weight: 300;
+  margin-top: 2.3vh;
+  font-size: 3.3vh;
+  text-align: center;
+  margin-bottom: 2.3vh;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transition: all 0.2s linear;
+}
+
+
+
+
+/*All Media Queries, for Responsive layout */
+
+
+
+/*Hero Image*/
+@media screen and (max-width: 514px) {
+  .heropage {
+    height: 80vh;
+    width: 100vw;
+  }
+  .herotext h1 {
+    font-size: 6vh;
+    padding: 0;
+    margin-left: 0.35vw;
+    margin-right: 0.35vw;
+  }
+  .herotext button {
+    font-size: 2.8vh;
+  }
+}
+/*Hero Image*/
+
+
+/*Lorem Ipsum Content-1*/
+@media screen and (max-width: 514px){
+  .main img {
+    width: 80%;
+    padding: 0;
+    margin-top: 12vw;
+    margin-bottom: 12vw;
+    margin-left: 0.35vw;
+    margin-right: 0.35vw;
+    display: block;
+    margin: auto;
+    padding-bottom: 12vw;
+  }
+
+  .main-text {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .main-text h2 {
+    font-size: 3.8vh;
+    text-align: center;
+  }
+
+  .main-text p {
+    font-size: 2.4vh;
+    text-align: center;
+  }
+}
+/*Lorem Ipsum Content-1 end*/
+
+
+/*Blockquote Section*/
+@media screen and (max-width: 1071px) {
+  blockquote:before {
+    font-size: 10.5vh;
+    margin-left: 0.7vw;
+  }
+  blockquote {
+    font-size: 3vh;
+    width: 90%;
+  }
+  article {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 881px) {
+  blockquote:before {
+    font-size: 10.5vh;
+    margin-left: 0.7vw;
+  }
+  blockquote {
+    font-size: 3vh;
+    width: 90%;
+  }
+  article {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+/*Blockquote Section*/
+
+/*Lorem Ipsum Content-2*/
+@media screen and (max-width: 1071px) {
+  .secondimg {
+    border-right: none;
+    width: 21vw;
+    padding: 0;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    display: block;
+    margin-left: 0.35vw;
+    margin-right: 0.35vw;
+    margin: auto;
+    float: none;
+  }
+  .SecondText {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1053px){
+  .secondimg {
+    display: block;
+    margin: auto;
+  }
+  .content2 {
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+/*Lorem Ipsum Content-2*/
+
+@media screen and (max-width: 993px) {
+  .tabFacts img {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5vh;
+    margin-top: 6vh;
+  }
+  .tabContainer img {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5vh;
+    margin-top: 6vh;
+  }
+  #tabContainer2 img {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5vh;
+    margin-top: 6vh;
+  }
+  .tabButton {
+    margin-bottom: -2.3vh;
+  }
+  .tabText {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+}
+
+/*form section*/
+@media screen and (max-width: 732px) {
+.form h1 {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+form  {
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  margin-left: 0.35vw;
+  margin-right: 0.35vw;
+  display: block;
+  margin: auto;
+}
+form input {
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+form textarea {
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+form h3 {
+  width: 95%;
+  display: block;
+  margin: auto;
+  text-align: left;
+}
+#form-button {
+  width: 95%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 3vh;
+}
+}
+
+@media screen and (max-width: 27vw) {
+  .footer-products-section {
+    display: none;
+  }
+}
+
+
+/*form section*/
+
+/*All the Media Queries are above and within this container */
