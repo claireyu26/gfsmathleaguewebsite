@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 
 /* @font-face {
   src: url(C:\Users\Home\AppData\Local\Temp\atom-118019-14536-1ea9572.rtm9ozuxr\league-spartan.zip\LeagueSpartan-Bold.otf);
@@ -19,6 +14,10 @@ button:focus {
   outline: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 .main {
   margin-top: 15vh;
   margin-bottom: 15vh;
@@ -67,6 +66,7 @@ z-index: 10;
   justify-content: center;
   align-items: center;
 }
+
 
 .containercontact p {
   font-size: 4.5vh;
@@ -481,7 +481,7 @@ blockquote {
 
 .content21 {
   padding: 15vh;
-  width: 76.4vw;
+  width: 85vw;
   margin: auto;
   text-align: center;
   margin-top:-20vh;
@@ -1018,69 +1018,6 @@ form h3 {
   }
 }
 
-
-
-@media (max-width: 768px) {
-  .container {
-    width: 90%;
-    padding: 0 0.9375em;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav li {
-    margin: 0.625em 0;
-  }
-
-  .hero {
-    padding: 2.5em 0;
-  }
-
-  .hero h1 {
-    font-size: 2em;
-  }
-
-  .hero p {
-    font-size: 1em;
-  }
-
-  .cta-button {
-    font-size: 1em;
-    padding: 0.625em 0.9375em;
-  }
-
-  .features {
-    flex-direction: column;
-  }
-
-  .feature {
-    width: 100%;
-    margin-bottom: 1.25em;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero h1 {
-    font-size: 1.5em;
-  }
-
-  .hero p {
-    font-size: 0.9em;
-  }
-
-  .cta-button {
-    font-size: 0.9em;
-    padding: 0.5em 1em;
-  }
-}
 
 /*form section*/
 
